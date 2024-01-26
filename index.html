@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>HTML</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        nav{
+            background-color: aqua;
+            color: rgba(165, 42, 42, 0.452);
+            height: 100px;
+            width: 197.5vh;         
+        }
+        a{
+            display: flex;
+            padding: 4px 10px;
+            justify-content: space-between;
+            display: inline-block;
+            
+        }
+        #img{
+            height: 300px;
+            width: 300px;          
+        }
+        h1{
+            text-align: center;
+            font-size: 55px;
+        }
+        #para{
+            font-size: x-large;
+        }
+        aside{
+            height: auto;
+            width: 440px;
+        }
+        footer{
+            background-color: aqua;
+            height: 100px;
+            width: 197.5vh;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="about.html" target="_blank">ABOUT</a>
+            <a href="collection.html" target="_blank">COLLECTION</a>
+            <a href="contact.html" target="_blank">CONTACT</a>
+        </nav>
+    </header>
+    <main>
+        <img src="./assest/img/burger.png" alt="burger" id="img">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/OXGznpKZ_sA?si=IjxhTofDJm34Ml0q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <h1>PICTURES</h1>
+        <div id="para">
+            <p><b><i><u>Lorem, ipsum dolor sit <sup>amet consectetur</sup> adipisicing elit.<mark>Suscipit ad</mark> ,<sub>quod eos facilis omnis at.</sub>  Eveniet sed sit a molestiae sequi autem quo numquam? Rem eaque vero vel assumenda et?</u></i></b></p>
+        </div>
+        <aside>
+            pictures about nature,living living thing and non living thing pictures about nature,living living thing and non living thing<br><br> pictures about nature,living living thing and non living thing
+
+        </aside>
+
+         <form>
+
+            <h4> Campus choose selection</h4>
+            <label for="name">Name:</label>
+            <input type="text" placeholder="enter your namre">
+            <label for="email">Email:</label>
+            <input  type="email" required value="yamna@gmail.com" readonly >
+            <label for="password">Password:</label>
+            <input type="password" maxlength="8" placeholder="Enter your password">
+            <label for="number">Number:</label>
+            <input type="number">
+            <input type="color">
+            <input type="time">
+            <input type="month">
+            <input type="week">
+            <div> <input type="radio" required id="male" value="male" name="gender"><label for="male">male:</label></div>
+            <div> <input type="radio" required id="female" value="female" name="gender"><label for="female">female:</label> </div>
+      
+            <div>
+                <div>
+                <input type="checkbox" required id="Table tennis" value="Table tennis" name="sports">
+                <label for="Table tennis">Table tennis</label>
+                </div>
+                <div>
+                <input type="checkbox" required id="Cricket" value="Cricket" name="sports">
+                <label for="Cricket">Cricket</label>
+                </div>
+                <div>
+                <input type="checkbox" required id="Throw Ball" value="Throw Ball" name="sports">
+                <label for="Throw Ball">Throw Ball</label>
+                </div>
+                <div>
+                <input type="checkbox" required id="Foot ball" value="Foot ball" name="sports">
+                <label for="Foot ball">Foot ball</label> 
+                </div>
+             </div>
+             <select>
+                <option value="" readonly>Subject:</option>
+                <option value="Maths">Maths</option>
+                <option value="English">English</option>
+                <option value="Urdu">Urdu</option>
+            </select>
+
+            <button>Submit</button>
+    
+          
+        </form> 
+    </main>
+    <footer>
+       <br></br> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate neque temporibus inventore nisi quibusdam qui velit doloribus<br> debitis possimus corporis, aspernatur dolorem molestiae eum assumenda placeat nam hic distinctio provident?</p>
+    </footer>
+</body>
+</html>
